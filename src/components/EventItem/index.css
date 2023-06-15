@@ -1,0 +1,25 @@
+.event-item {
+  color: #f8fafc;
+}
+.event-img {
+  width: 100%;
+  margin-bottom: 1rem;
+  border-radius: 8px;
+}
+.event-name {
+  font-weight: 500;
+  font-size: 1.4rem;
+  margin-bottom: 0.5rem;
+}
+
+.green-border {
+  border: 2px solid #2dd4bf;
+  border-radius: 8px;
+  overflow: hidden;
+}
+.event-btn {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  padding: 0;
+}

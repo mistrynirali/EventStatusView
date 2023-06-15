@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto';
+}
+
+.main-body {
+  display: flex;
+  min-height: 100vh;
+}
+.events-body {
+  padding: 1.5rem;
+  background-color: #3a4b63;
+  width: 60%;
+  flex-shrink: 0;
+}
+.main-heading {
+  font-weight: bold;
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  color: #f8fafc;
+}
+.events-list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  list-style: none;
+  gap: 2rem;
+}
+.registration-status-body {
+  padding: 1.5rem;
+  text-align: center;
+}
